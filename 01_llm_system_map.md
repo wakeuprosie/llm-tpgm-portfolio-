@@ -1,3 +1,4 @@
+# LLM System Map
 This document aims to outline the high-level architecture of an LLM system, based on Andrej Karpathy's 2025 lecture: Deep Dive into LLMs like ChatGPT.
 
 **In summary, the high-level LLM system is structured like this:**
@@ -93,7 +94,7 @@ After pre-training and post-training, there is a 3rd phase of training which use
 
 Finally, one other modern training step used is **Reinforced Human Feedback Learning**. This is particularly important for domains where there is no ‘factual’ answer for the model to grade itself on; for example, creating a funny joke. In RHFL, the model generates multiple outputs and associates a quality score with each. Humans then provide their stack ranking of the outputs. The model then evaluates the human’s labeling and adjusts its parameters accordingly.
 
-# LLM Competitor Space
+## LLM Competitor Space
 
 Based on this knowledge of the high-level LLM architecture, I wanted to better understand what angle companies are competing on with their LLMs.
 
